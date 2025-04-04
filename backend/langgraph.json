@@ -1,0 +1,8 @@
+{
+  "node_version": "20",
+  "graphs": {
+    "chatbot": "./src/index.ts:graph"
+  },
+  "env": ".env",
+  "dependencies": ["."]
+}
