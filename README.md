@@ -14,6 +14,18 @@
 
 ### 環境変数の設定
 
+フロントエンドとバックエンドの両方のディレクトリに `.env.example` ファイルが用意されています。これらのファイルをコピーして `.env` ファイルを作成し、必要な API キーを設定してください。
+
+```bash
+# バックエンドの.envファイルを作成
+cp backend/.env.example backend/.env
+
+# フロントエンドの.envファイルを作成
+cp frontend/.env.example frontend/.env
+```
+
+作成した`.env`ファイルに必要な API キーを設定してください。
+
 #### バックエンド (.env)
 
 ```
