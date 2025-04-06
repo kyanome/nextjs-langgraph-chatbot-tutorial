@@ -17,15 +17,15 @@ export const createServerClient = () => {
     throw new Error("NEXT_PUBLIC_LANGGRAPH_API_URL is not set");
   }
 
-  if (!process.env.LANGCHAIN_API_KEY) {
-    throw new Error("LANGCHAIN_API_KEY is not set");
+  if (!process.env.LANGSMITH_API_KEY) {
+    throw new Error("LANGSMITH_API_KEY is not set");
   }
 
   const client = new Client({
     apiUrl: process.env.NEXT_PUBLIC_LANGGRAPH_API_URL,
     defaultHeaders: {
       "Content-Type": "application/json",
-      "X-Api-Key": process.env.LANGCHAIN_API_KEY,
+      "X-Api-Key": process.env.LANGSMITH_API_KEY,
     },
   });
 
