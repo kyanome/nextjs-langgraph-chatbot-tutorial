@@ -79,3 +79,7 @@ npm run dev
 ```
 
 ブラウザで [http://localhost:3000](http://localhost:3000) を開くとチャットボット UI が表示されます。
+
+## 参考動画
+
+[![Next.js + LangGraph Chatbot Template](https://img.youtube.com/vi/qdjuCaSh51c/0.jpg)](https://www.youtube.com/watch?v=qdjuCaSh51c)
