@@ -1,5 +1,15 @@
 # Next.js + LangGraph Chatbot Template
 
+このプロジェクトは、Next.js フロントエンドと LangGraph バックエンドを組み合わせたチャットボットアプリケーションです。OpenAI の モデルを活用し、リアルタイムストリーミングレスポンスを実装しています。
+
+主な特徴：
+
+- フロントエンド : Next.js14(App Router), Tailwind , Shadcn UI
+- バックエンド : LangGraph
+- その他 : SSE（Server-Sent Events）によるストリーミング対応
+
+このテンプレートは、LLM アプリケーションを開発のための基盤として、または学習目的で LangChain と Next.js の統合方法を理解するために使用できます。
+
 ## セットアップ
 
 ### 環境変数の設定
